@@ -2,6 +2,7 @@
   "name": "EgyTrade OS",
   "short_name": "EgyTrade",
   "description": "نظام التشغيل التجاري المصري الأول — جمارك وتصدير واتفاقيات",
+  "id": "com.egytrade.os",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -11,31 +12,26 @@
   "lang": "ar",
   "dir": "rtl",
   "categories": ["business", "finance"],
+  "prefer_related_applications": false,
   "icons": [
     {
-      "src": "./icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any"
-    },
-    {
-      "src": "./icon.svg",
+      "src": "./icon-192.png",
       "sizes": "192x192",
-      "type": "image/svg+xml",
-      "purpose": "maskable"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "./icon.svg",
+      "src": "./icon-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ],
   "screenshots": [
     {
-      "src": "./icon.svg",
+      "src": "./icon-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "form_factor": "narrow",
       "label": "EgyTrade OS Home Screen"
     }
